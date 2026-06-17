@@ -1,0 +1,144 @@
+*{
+margin:0;
+padding:0;
+box-sizing:border-box;
+font-family:Arial,sans-serif;
+}
+
+body{
+line-height:1.6;
+}
+
+header{
+background:#0f172a;
+padding:20px 50px;
+}
+
+nav{
+display:flex;
+justify-content:space-between;
+align-items:center;
+}
+
+nav h2{
+color:#ffc107;
+}
+
+nav ul{
+display:flex;
+list-style:none;
+gap:20px;
+}
+
+nav ul li a{
+color:white;
+text-decoration:none;
+}
+
+.hero{
+height:90vh;
+background:linear-gradient(rgba(0,0,0,.6),rgba(0,0,0,.6)),
+url('https://images.unsplash.com/photo-1509391366360-2e959784a276?w=1600');
+background-size:cover;
+background-position:center;
+display:flex;
+justify-content:center;
+align-items:center;
+text-align:center;
+color:white;
+}
+
+.hero h1{
+font-size:55px;
+margin-bottom:20px;
+}
+
+.hero p{
+font-size:20px;
+margin-bottom:30px;
+}
+
+.btn{
+background:#ffc107;
+color:black;
+padding:12px 25px;
+text-decoration:none;
+border-radius:5px;
+font-weight:bold;
+}
+
+.services{
+padding:80px 10%;
+text-align:center;
+}
+
+.services h2{
+margin-bottom:40px;
+font-size:40px;
+}
+
+.cards{
+display:flex;
+gap:20px;
+justify-content:center;
+flex-wrap:wrap;
+}
+
+.card{
+background:#f4f4f4;
+padding:30px;
+width:300px;
+border-radius:10px;
+box-shadow:0 0 10px rgba(0,0,0,.1);
+}
+
+.about{
+padding:80px 10%;
+background:#f8fafc;
+text-align:center;
+}
+
+.about h2{
+font-size:40px;
+margin-bottom:20px;
+}
+
+.contact{
+padding:80px 10%;
+text-align:center;
+}
+
+.contact h2{
+font-size:40px;
+margin-bottom:30px;
+}
+
+form{
+max-width:600px;
+margin:auto;
+display:flex;
+flex-direction:column;
+gap:15px;
+}
+
+input,
+textarea{
+padding:15px;
+border:1px solid #ccc;
+border-radius:5px;
+}
+
+button{
+padding:15px;
+background:#ffc107;
+border:none;
+cursor:pointer;
+font-weight:bold;
+}
+
+footer{
+background:#0f172a;
+color:white;
+text-align:center;
+padding:20px;
+}
